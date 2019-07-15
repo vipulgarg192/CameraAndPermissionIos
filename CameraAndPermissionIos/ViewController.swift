@@ -8,13 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , UINavigationControllerDelegate, UIImagePickerControllerDelegate {
 
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var cameraTBR: UIToolbar!
+    
+    @IBOutlet weak var galleryTBR: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func callCamera(_ sender: UIBarButtonItem) {
+    }
+    
+    @IBAction func callGallery(_ sender: UIBarButtonItem) {
+    }
 }
 
