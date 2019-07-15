@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController , UINavigationControllerDelegate, UIImagePickerControllerDelegate {
 
-    
+    var boola : Bool = true
     @IBOutlet weak var imageView: UIImageView!
     
     @IBOutlet weak var cameraTBR: UIToolbar!
